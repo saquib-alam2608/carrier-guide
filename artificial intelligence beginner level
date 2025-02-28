@@ -1,0 +1,216 @@
+<------------------------------------html code------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI for Beginners</title>
+  <link rel="stylesheet" type="text/css" href="Beginner.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="container">
+    <h1>AI for Beginners</h1>
+    <p>Your friendly guide to understanding Artificial Intelligence</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="container">
+    <ul>
+      <li><a href="file:///C:/Users/MD%20MUMTAZ%20ALAM/Desktop/saq/Artificial%20Intelligence.html#beginner">Home</a></li>
+      <li><a href="#tutorials">Tutorials</a></li>
+      <li><a href="#glossary">Glossary</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="container">
+    <h2>Welcome!</h2>
+    <p>Begin your journey into the world of Artificial Intelligence with clear, easy-to-follow explanations and interactive learning materials designed just for beginners.</p>
+    <a class="btn" href="#tutorials">Start Learning</a>
+  </section>
+
+  <!-- Tutorials Section -->
+  <section id="tutorials" class="container">
+    <h2>Beginner Tutorials</h2>
+    <div class="card-container">
+      <article class="card">
+        <h3>What is AI?</h3>
+        <p>Explore the basics of Artificial Intelligence, its history, and real-world applications in everyday life.</p>
+        <a href="https://aws.amazon.com/what-is/artificial-intelligence/">Learn More</a>
+      </article>
+      <article class="card">
+        <h3>Introduction to Machine Learning</h3>
+        <p>Discover how machines learn from data and the core concepts behind algorithms used in AI.</p>
+        <a href="https://www.geeksforgeeks.org/ml-machine-learning/">Learn More</a>
+      </article>
+      <article class="card">
+        <h3>Neural Networks Simplified</h3>
+        <p>A beginner-friendly overview of neural networks and how they mimic human brain function.</p>
+        <a href="https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/">Learn More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Glossary Section -->
+  <section id="glossary" class="container">
+    <h2>Glossary</h2>
+    <p>Find clear definitions for common AI terms and jargon to help you understand the fundamentals.</p>
+    <a class="btn" href="https://www.coursera.org/resources/ai-terms?msockid=105d3e28ff3e6287074b2c5ffe386330">View Glossary</a>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" class="container">
+    <h2>Resources</h2>
+    <p>Access curated articles, videos, and tools specifically selected for beginners in AI.</p>
+    <a class="btn" href="#">Explore Resources</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>We are passionate about making Artificial Intelligence accessible to everyone. Our mission is to empower beginners with the knowledge they need to explore the world of AI confidently.</p>
+    <a class="btn" href="#">Learn More</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; 2025 AI for Beginners. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+<---------------------------------------------CSS Code----------------------------------------------->
+
+
+
+
+
+
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    /* Header */
+    header {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 4px solid #003060;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    /* Navigation */
+    nav {
+      background-color: #0066cc;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Sections */
+    section {
+      background-color: #fff;
+      margin: 20px 0;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #004080;
+    }
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #003060;
+    }
+    /* Card Layout for Tutorials */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #e6f0ff;
+      border-radius: 8px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #004080;
+    }
+    .card p {
+      font-size: 0.95em;
+    }
+    .card a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    /* Footer */
+    footer {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-top: 4px solid #003060;
+      margin-top: 20px;
+    }
+  
